@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Engagement Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Parent Engagement Platform</h1>
+        <p>Stay informed and engaged in your child's education!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#announcements">Announcements</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <div id="announcementList" class="list"></div>
+            <input type="text" id="announcementInput" placeholder="Add an announcement">
+            <button onclick="addAnnouncement()">Add Announcement</button>
+        </section>
+        
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div id="eventList" class="list"></div>
+            <input type="text" id="eventInput" placeholder="Add an event">
+            <button onclick="addEvent()">Add Event</button>
+        </section>
+        
+        <section id="messages">
+            <h2>Messages</h2>
+            <div id="messageList" class="list"></div>
+            <input type="text" id="messageInput" placeholder="Send a message">
+            <button onclick="sendMessage()">Send Message</button>
+        </section>
+        
+        <section id="resources">
+            <h2>Educational Resources</h2>
+            <div id="resourceList" class="list"></div>
+            <input type="text" id="resourceInput" placeholder="Add a resource link">
+            <button onclick="addResource()">Add Resource</button>
+        </section>
+
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <textarea id="feedbackInput" placeholder="Share your feedback or suggestions"></textarea>
+            <button onclick="submitFeedback()">Submit Feedback</button>
+            <div id="feedbackList" class="list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
