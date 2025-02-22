@@ -37,4 +37,4 @@ Navigate to the Project Directory: Change your current directory to the project 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/parent-engagement-platform.git
+   git clone https://github.com/Imsindu/parent-engagement-platform.git
